@@ -1,5 +1,8 @@
-Name - Aadarsh Kumar
+# C++ Basics
+## Topics Covered
+- Input/Output
+- Variables and Data Types
+- Conditional Statements
 
-Goal: “Learning C++ for DSA and Projects”
-
-Topics Covered: Input/output, variables
+## Author
+Aadarsh Kumar (2nd Year Software Engineering Student, DTU)
