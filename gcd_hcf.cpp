@@ -6,9 +6,10 @@ int main(){
       cout << "Enter two numbers: ";      
       cin >> a >> b;
       int gcd = 1; // Initialize gcd to 1
-      for(int i = 1; i <= min; i++){
+      for(int i = min/2; i<min; i--){
           if(a % i == 0 && b % i == 0){ // Check if i is a divisor of both a and b
               gcd = i; // Update gcd if i is a common divisor
+                break; // Exit the loop once the largest common divisor is found
           }
       }
       cout << "GCD of " << a << " and " << b << " is: " << gcd << endl;
